@@ -44,7 +44,7 @@ def get_random_picture():
     while True:
         random_file = str(random.choice(os.listdir(file_img_folder))).split(".")[-2]
 
-        random_file_jpg = file_img_folder + "/" + random_file + ".jpg"
+        random_file_jpg = file_img_folder + "/" + random_file + ".png"
         random_file_txt = file_labels_folder + "/" + random_file + ".txt"
 
         
